@@ -94,14 +94,12 @@ export interface ShopItem {
   id: string;
   name: string;
   desc: string;
-  category: "skin" | "protection" | "boost" | "raffle" | "real_perk" | "power" | "theme";
+  category: "skin" | "protection" | "boost" | "raffle" | "real_perk";
   price: number;
   icon: string;
   badge: string;
   imageUrl?: string;
   purchased: boolean;
-  isEquipped?: boolean;
-  inventoryCount?: number;
   totalGoal?: number;
   accumulated?: number;
 }
